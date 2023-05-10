@@ -1,5 +1,7 @@
 name: Nahlásit chybu v instalaci překladu (češtiny)
 description: Něco nefunguje jak jste očekávali? Nahlašte nám chybu
+labels:
+  - instalace
 body:
 
   - type: textarea
