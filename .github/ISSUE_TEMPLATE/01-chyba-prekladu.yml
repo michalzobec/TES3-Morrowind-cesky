@@ -78,6 +78,37 @@ body:
         - GOG.com (neveřejná beta)
 
   - type: checkboxes
+    id: usedplugins
+    attributes:
+      label: Jaká rozšíření (pluginy) ve hře máte aktivní?
+      description: >-
+        Ujistěte se, že vaše hlášení o chybě splňuje všechny následující požadavky. Pokud si nejste jisti,
+         co konkrétní požadavek znamená, klikněte na odkaz abyste se o něm dozvěděli a pochopili,
+         proč je to nutné, než potvrdíte tuto volbu. Dodržováním těchto podmínek ušetříte nám i vám drahocenný čas.
+      options:
+        - label: >-
+            Morrowind.
+          required: true
+        - label: >-
+            Tribunal.
+          required: true
+        - label: >-
+            Bloodmoon.
+          required: true
+        - label: >-
+            A další doplněk, či doplňky, mimo překladu (češtiny).
+          required: false
+
+  - type: textarea
+    id: 3rdplugin
+    attributes:
+      label: Jaké doplňky třetích stran uživáte?
+      description: >-
+        Pokud jste uvedli v předchozím formuláři, že používáte doplňky třetích stran, uveďte jaké doplňky to jsou.
+    validations:
+      required: false
+
+  - type: checkboxes
     id: checklist
     attributes:
       label: Než vytvoříte toto oznámení o chybě
