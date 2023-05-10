@@ -17,7 +17,7 @@ Tento repozitář slouží zejména pro [hlášení problémů](https://github.c
 
 Jmenuji se Michal Zobec, pracuji jako Senior IT Infrastructure Specialist, Senior IT Consultant, IT Architect, či IT Project Manager. Mám více než 25 let praxi v oboru ICT. 
 
-[Více podrobností o mě](MichalZobec-About.md).
+[Více podrobností o mě](https://github.com/michalzobec/michalzobec/blob/main/MichalZobec-About.md).
 
 <a name="english"></a>
 
