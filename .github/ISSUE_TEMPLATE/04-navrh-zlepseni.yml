@@ -1,5 +1,7 @@
 name: Návrh na zlepšení
 description: Máte dobrý nápad? Založte návrh na zlepšení
+labels:
+  - zlepseni
 body:
 
   - type: textarea
