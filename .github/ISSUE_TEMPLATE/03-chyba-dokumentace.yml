@@ -1,7 +1,7 @@
 name: Nahlašte chybu v dokumentaci
 description: V dokumentaci je chyba, nebo chybí nějaké informace? Nahlašte nám chybu v dokumentaci
 labels:
-  - documentation
+  - dokumentace
 body:
 
   - type: textarea
