@@ -1,5 +1,7 @@
 name: Nahlásit chybu v překladu (češtině)
 description: Něco nefunguje jak jste očekávali? Nahlašte nám chybu
+labels:
+  - cestina
 body:
 
   - type: textarea
