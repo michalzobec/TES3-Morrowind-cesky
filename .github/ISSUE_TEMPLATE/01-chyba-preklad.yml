@@ -2,6 +2,7 @@ name: Nahlásit chybu v překladu (češtině)
 description: Překlad hry (čeština) nefunguje jak jste očekávali? Nahlašte nám chybu
 labels:
   - cestina
+title: <Napište strun0 shrnutí vašeho problému (v jedné větě).>
 body:
 
   - type: textarea
