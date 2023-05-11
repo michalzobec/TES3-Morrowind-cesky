@@ -86,9 +86,9 @@ body:
   - type: checkboxes
     id: usedplugins
     attributes:
-      label: Jaká rozšíření (pluginy) ve hře máte *aktivní*?
+      label: Jaká rozšíření (pluginy) ve hře máte aktivní?
       description: >-
-        Vyberte jaká rozšíření (pluginy) máte ve hře *aktivní*.
+        Vyberte jaká rozšíření (pluginy) máte ve hře aktivní.
       options:
         - label: >-
             Morrowind.
@@ -156,7 +156,7 @@ body:
          proč je to nutné, než potvrdíte tuto volbu. Dodržováním těchto podmínek ušetříte nám i vám drahocenný čas.
       options:
         - label: >-
-            Přečetl jsem a řídil jsem se článkem [TES3 Morrowind Czech: Máte potíže?](https://doc.michalzobec.cz/tes3-morrowind-czech-mate-potize-57) pro hlášení chyb v překladu.
+            Přečetl jsem a řídím se dokumentem [TES3 Morrowind Czech: Máte potíže?](https://doc.michalzobec.cz/tes3-morrowind-czech-mate-potize-57) pro hlášení chyb v překladu.
           required: true
         - label: >-
             Před založením tohoto oznámení o chybě jsem se ujistil v [uživatelské příručce](https://doc.michalzobec.cz/tes3-morrowind-czech-uzivatelska-prirucka-8),
