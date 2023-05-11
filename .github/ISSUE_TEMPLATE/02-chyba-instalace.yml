@@ -89,6 +89,8 @@ body:
       options:
         - Windows 10 x64
         - Windows 11 x64
+    validations:
+      required: true
 
   - type: checkboxes
     id: dotnetfw
