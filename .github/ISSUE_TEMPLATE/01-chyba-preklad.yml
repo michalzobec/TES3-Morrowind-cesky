@@ -1,5 +1,5 @@
 name: Nahlásit chybu v překladu (češtině)
-description: Něco nefunguje jak jste očekávali? Nahlašte nám chybu
+description: Překlad hry (čeština) nefunguje jak jste očekávali? Nahlašte nám chybu
 labels:
   - cestina
 body:
@@ -15,12 +15,12 @@ body:
       required: true
 
   - type: textarea
-    id: cosestalonebonestalo
+    id: cojsteocekavali
     attributes:
-      label: Co se stalo, nebo nestalo dle vašeho očekávání
+      label: Co jste očekávali
       description: >-
-        Uveďte co se stalo, nebo nestalo dle vašeho očekávání, například:
-        _Když jsem vybral téma rozhovoru o knize, nic se nestalo, knihu si nepřevzal._
+        Uveďte co jste očekávali, například:
+        _Když jsem vybral téma rozhovoru o knize, nic se nestalo, knihu si nepřevzal. Úkol jsem splnil, knihu mám u sebe, ale nepřevzal si ji. Volba na toto téma není aktivní._
     validations:
       required: true
 
@@ -29,7 +29,7 @@ body:
     attributes:
       label: Kde ve hře se daný problém stal
       description: >-
-        Kde ve hře se daný problém stal, například:
+        Kde ve hře, v jakém místě, se daný problém stal, například:
         _Ve městě Balmora._
     validations:
       required: true
@@ -49,10 +49,10 @@ body:
     attributes:
       label: Screenshot ze hry
       description: >-
-        Přiložte prosím screenshot dokumentující váš problém.
+        Přiložte prosím screenshot ve formátu PNG, dokumentující váš problém.
         Vyhrazujeme si právo uzavřít tento problém, pokud nebude přiložen screenshot.
       placeholder: |-
-        Přetáhněte myší screenshot sem.
+        Přetáhněte myší screenshot ve formátu PNG sem.
     validations:
       required: true
 
@@ -84,9 +84,7 @@ body:
     attributes:
       label: Jaká rozšíření (pluginy) ve hře máte *aktivní*?
       description: >-
-        Ujistěte se, že vaše hlášení o chybě splňuje všechny následující požadavky. Pokud si nejste jisti,
-         co konkrétní požadavek znamená, klikněte na odkaz abyste se o něm dozvěděli a pochopili,
-         proč je to nutné, než potvrdíte tuto volbu. Dodržováním těchto podmínek ušetříte nám i vám drahocenný čas.
+        Vyberte jaká rozšíření (pluginy) máte ve hře *aktivní*.
       options:
         - label: >-
             Morrowind.
