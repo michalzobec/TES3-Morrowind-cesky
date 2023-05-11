@@ -10,7 +10,7 @@ body:
     attributes:
       label: Co jste dělali
       description: >-
-        Popište co jste dělali, například:
+        Popište co jste dělali, například:  
         _Pokusil jsem se instalovat češtinu do hry. Instalace se nezdařila._
     validations:
       required: true
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Co jste očekávali
       description: >-
-        Uveďte co jste očekávali, například:
+        Uveďte co jste očekávali, například:  
         _Úspěšnou instalaci češtiny._
     validations:
       required: true
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Screenshot s chybovou hláškou při instalaci
       description: >-
-        Přiložte prosím screenshot, nebo screenshoty ve formátu PNG, dokumentující váš problém. *Všechny* chybové hlášky, které se zobrazily během instalace češtiny jsou pro nás důležité.
+        Přiložte prosím screenshot, nebo screenshoty ve formátu PNG, dokumentující váš problém. **Všechny** chybové hlášky, které se zobrazily během instalace češtiny jsou pro nás důležité.  
         Vyhrazujeme si právo uzavřít tento problém, pokud nebude přiložen screenshot.
       placeholder: |-
         Přetáhněte myší screenshot ve formátu PNG sem.
@@ -52,9 +52,9 @@ body:
   - type: checkboxes
     id: usedplugins
     attributes:
-      label: Jaká rozšíření (pluginy) ve hře máte *aktivní*?
+      label: Jaká rozšíření (pluginy) ve hře máte **aktivní**?
       description: >-
-        Vyberte jaká rozšíření (pluginy) máte ve hře *aktivní*.
+        Vyberte jaká rozšíření (pluginy) máte ve hře **aktivní**.
       options:
         - label: >-
             Morrowind.
@@ -94,7 +94,7 @@ body:
     attributes:
       label: Máte nainstalován Microsoft .NET Framework verze 4.6, nebo novější?
       description: >-
-        Ujistěte se, že ve vašem operačním systému máte nainstalován Microsoft .NET Framework verze 4.6, nebo novější.
+        Ujistěte se, že ve vašem operačním systému máte nainstalován Microsoft .NET Framework verze 4.6, nebo novější.  
         Microsoft .NET Framework je součástí systémů Windows 10 a Windows 11.
       options:
         - label: >-
@@ -108,7 +108,8 @@ body:
       description: >-
         Ujistěte se, že vaše hlášení o chybě splňuje všechny následující požadavky. Pokud si nejste jisti,
          co konkrétní požadavek znamená, klikněte na odkaz abyste se o něm dozvěděli a pochopili,
-         proč je to nutné, než potvrdíte tuto volbu. Dodržováním těchto podmínek ušetříte nám i vám drahocenný čas.
+         proč je to nutné, než potvrdíte tuto volbu.  
+         Dodržováním těchto podmínek ušetříte nám i vám drahocenný čas.
       options:
         - label: >-
             Přečetl jsem a řídil jsem se článkem [TES3 Morrowind Czech: Máte potíže?](https://doc.michalzobec.cz/tes3-morrowind-czech-mate-potize-57) pro hlášení chyb v překladu.
