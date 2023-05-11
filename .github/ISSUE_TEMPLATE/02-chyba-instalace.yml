@@ -88,6 +88,7 @@ body:
       options:
         - Windows 10 x64
         - Windows 11 x64
+          required: true
 
   - type: checkboxes
     id: dotnetfw
@@ -99,6 +100,17 @@ body:
       options:
         - label: >-
             Potvrzuji, mám nainstalován Microsoft .NET Framework verze 4.6, nebo novější.
+          required: true
+
+  - type: checkboxes
+    id: tes3czechversion
+    attributes:
+      label: Máte nainstalovanou aktuální (nejnovější) verzi překladu (češtiny)?
+      description: >-
+        Ujistěte se, že máte nainstalovanou [aktuální (nejnovější) verzi překladu (češtiny)](http://zob.ec/morrcz).
+      options:
+        - label: >-
+            Potvrzuji, používám aktuální verzi překladu (češtiny).
           required: true
 
   - type: checkboxes
