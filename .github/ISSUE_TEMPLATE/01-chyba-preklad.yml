@@ -82,7 +82,7 @@ body:
   - type: checkboxes
     id: usedplugins
     attributes:
-      label: Jaká rozšíření (pluginy) ve hře máte aktivní?
+      label: Jaká rozšíření (pluginy) ve hře máte *aktivní*?
       description: >-
         Ujistěte se, že vaše hlášení o chybě splňuje všechny následující požadavky. Pokud si nejste jisti,
          co konkrétní požadavek znamená, klikněte na odkaz abyste se o něm dozvěděli a pochopili,
@@ -93,10 +93,10 @@ body:
           required: true
         - label: >-
             Tribunal.
-          required: true
+          required: false
         - label: >-
             Bloodmoon.
-          required: true
+          required: false
         - label: >-
             A další doplněk, či doplňky, mimo překladu (češtiny).
           required: false
@@ -109,6 +109,29 @@ body:
         Pokud jste uvedli v předchozím formuláři, že používáte doplňky třetích stran, uveďte jaké doplňky to jsou.
     validations:
       required: false
+
+  - type: dropdown
+    id: operatingsystem
+    attributes:
+      label: Operační systém
+      description: >-
+        Vyberte váš operační systém.
+      multiple: false
+      options:
+        - Windows 10 x64
+        - Windows 11 x64
+
+  - type: checkboxes
+    id: dotnetfw
+    attributes:
+      label: Máte nainstalován Microsoft .NET Framework verze 4.6, nebo novější?
+      description: >-
+        Ujistěte se, že ve vašem operačním systému máte nainstalován Microsoft .NET Framework verze 4.6, nebo novější.
+        Microsoft .NET Framework je součástí systémů Windows 10 a Windows 11.
+      options:
+        - label: >-
+            Potvrzuji, mám nainstalován Microsoft .NET Framework verze 4.6, nebo novější.
+          required: true
 
   - type: checkboxes
     id: checklist
