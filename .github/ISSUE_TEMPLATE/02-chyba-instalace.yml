@@ -1,4 +1,5 @@
 name: Nahlásit chybu v instalaci překladu (češtiny)
+title: Napište krátké shrnutí vašeho problému
 description: Instalace překladu (češtiny) nefunguje jak jste očekávali? Nahlašte nám chybu
 labels:
   - instalace
