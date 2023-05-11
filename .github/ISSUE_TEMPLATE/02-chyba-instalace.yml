@@ -2,7 +2,7 @@ name: Nahlásit chybu v instalaci překladu (češtiny)
 description: Instalace překladu (češtiny) nefunguje jak jste očekávali? Nahlašte nám chybu
 labels:
   - instalace
-title: <Napište strun0 shrnutí vašeho problému (v jedné větě).>
+title: <Napište stručné shrnutí vašeho problému (v jedné větě).>
 body:
 
   - type: textarea
