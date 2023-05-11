@@ -133,6 +133,17 @@ body:
           required: true
 
   - type: checkboxes
+    id: tes3czechversion
+    attributes:
+      label: Máte nainstalovanou aktuální (nejnovější) verzi překladu (češtiny)?
+      description: >-
+        Ujistěte se, že máte nainstalovanou [aktuální (nejnovější) verzi překladu (češtiny)](http://zob.ec/morrcz).
+      options:
+        - label: >-
+            Potvrzuji, používám aktuální verzi překladu (češtiny).
+          required: true
+
+  - type: checkboxes
     id: checklist
     attributes:
       label: Než vytvoříte toto oznámení o chybě
