@@ -127,7 +127,7 @@ body:
             a [poznámkách k vydání](https://doc.michalzobec.cz/tes3-morrowind-czech-poznamky-k-vydani-12), že mnou popsaný problém ještě nikdo předemnou nehlásil.
           required: true
         - label: >-
-            Ujistil jsem se, že hru hraji pouze v podporovaném scénáři, tedy bez žádného doplňku, kromě samotného překladu a datadisků Tribunal a Bloodmoon,
+            Ujistil jsem se, že hru hraji pouze v [podporovaném scénáři](https://doc.michalzobec.cz/tes3-morrowind-czech-podporovane-scenare-478), tedy bez žádného doplňku, kromě samotného překladu a datadisků Tribunal a Bloodmoon,
             jak je popsáno v [uživatelské příručce](https://doc.michalzobec.cz/tes3-morrowind-czech-uzivatelska-prirucka-8).
           required: true
         - label: >-
