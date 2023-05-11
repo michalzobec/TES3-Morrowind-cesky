@@ -1,5 +1,5 @@
 name: Nahlásit chybu v instalaci překladu (češtiny)
-description: Něco nefunguje jak jste očekávali? Nahlašte nám chybu
+description: Instalace překladu (češtiny) nefunguje jak jste očekávali? Nahlašte nám chybu
 labels:
   - instalace
 body:
@@ -10,60 +10,29 @@ body:
       label: Co jste dělali
       description: >-
         Popište co jste dělali, například:
-        _V Balmoře jsem mluvil s Urius Septimem. Nesl jsem mu knihu od Marka Aurelia._
+        _Pokusil jsem se instalovat češtinu do hry. Instalace se nezdařila._
     validations:
       required: true
 
   - type: textarea
-    id: cosestalonebonestalo
+    id: cojsteocekavali
     attributes:
-      label: Co se stalo, nebo nestalo dle vašeho očekávání
+      label: Co jste očekávali
       description: >-
-        Uveďte co se stalo, nebo nestalo dle vašeho očekávání, například:
-        _Když jsem vybral téma rozhovoru o knize, nic se nestalo, knihu si nepřevzal._
-    validations:
-      required: true
-
-  - type: textarea
-    id: kde
-    attributes:
-      label: Kde ve hře se daný problém stal
-      description: >-
-        Kde ve hře se daný problém stal, například:
-        _Ve městě Balmora._
-    validations:
-      required: true
-
-  - type: textarea
-    id: kdo
-    attributes:
-      label: Jaké postavy se daný problém týká
-      description: >-
-        Jaké postavy se daný problém týká, například:
-        _Urius Septim._
+        Uveďte co jste očekávali, například:
+        _Úspěšnou instalaci češtiny._
     validations:
       required: true
 
   - type: textarea
     id: screenshot
     attributes:
-      label: Screenshot ze hry
+      label: Screenshot s chybovou hláškou při instalaci
       description: >-
-        Přiložte prosím screenshot dokumentující váš problém.
+        Přiložte prosím screenshot, nebo screenshoty ve formátu PNG, dokumentující váš problém. *Všechny* chybové hlášky, které se zobrazily během instalace češtiny jsou pro nás důležité.
         Vyhrazujeme si právo uzavřít tento problém, pokud nebude přiložen screenshot.
       placeholder: |-
-        Přetáhněte myší screenshot sem.
-    validations:
-      required: true
-
-  - type: textarea
-    id: gamesave
-    attributes:
-      label: Uložená pozice ze hry
-      description: >-
-        Pokud to situace vyžaduje, přiložte prosím uloženou pozici ze hry archivovanou v ZIP souboru pro reprodukci vaší chyby.
-      placeholder: |-
-        Přetáhněte myší uloženou pozici hry ve formátu ZIP sem.
+        Přetáhněte myší screenshot ve formátu PNG sem.
     validations:
       required: true
 
@@ -82,21 +51,19 @@ body:
   - type: checkboxes
     id: usedplugins
     attributes:
-      label: Jaká rozšíření (pluginy) ve hře máte aktivní?
+      label: Jaká rozšíření (pluginy) ve hře máte *aktivní*?
       description: >-
-        Ujistěte se, že vaše hlášení o chybě splňuje všechny následující požadavky. Pokud si nejste jisti,
-         co konkrétní požadavek znamená, klikněte na odkaz abyste se o něm dozvěděli a pochopili,
-         proč je to nutné, než potvrdíte tuto volbu. Dodržováním těchto podmínek ušetříte nám i vám drahocenný čas.
+        Vyberte jaká rozšíření (pluginy) máte ve hře *aktivní*.
       options:
         - label: >-
             Morrowind.
           required: true
         - label: >-
             Tribunal.
-          required: true
+          required: false
         - label: >-
             Bloodmoon.
-          required: true
+          required: false
         - label: >-
             A další doplněk, či doplňky, mimo překladu (češtiny).
           required: false
@@ -109,6 +76,29 @@ body:
         Pokud jste uvedli v předchozím formuláři, že používáte doplňky třetích stran, uveďte jaké doplňky to jsou.
     validations:
       required: false
+
+  - type: dropdown
+    id: operatingsystem
+    attributes:
+      label: Operační systém
+      description: >-
+        Vyberte váš operační systém.
+      multiple: false
+      options:
+        - Windows 10 x64
+        - Windows 11 x64
+
+  - type: checkboxes
+    id: dotnetfw
+    attributes:
+      label: Máte nainstalován Microsoft .NET Framework verze 4.6, nebo novější?
+      description: >-
+        Ujistěte se, že ve vašem operačním systému máte nainstalován Microsoft .NET Framework verze 4.6, nebo novější.
+        Microsoft .NET Framework je součástí systémů Windows 10 a Windows 11.
+      options:
+        - label: >-
+            Potvrzuji, mám nainstalován Microsoft .NET Framework verze 4.6, nebo novější.
+          required: true
 
   - type: checkboxes
     id: checklist
@@ -131,5 +121,5 @@ body:
             jak je popsáno v [uživatelské příručce](https://doc.michalzobec.cz/tes3-morrowind-czech-uzivatelska-prirucka-8).
           required: true
         - label: >-
-            Přiložil jsem screenshot a pokud to situace vyžaduje, tak také uloženou pozici ze hry.
+            Přiložil jsem screenshot.
           required: true
