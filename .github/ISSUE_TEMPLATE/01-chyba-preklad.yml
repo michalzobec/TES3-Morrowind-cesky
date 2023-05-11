@@ -4,7 +4,10 @@ labels:
   - cestina
 title: <Napište stručné shrnutí vašeho problému (v jedné větě).>
 body:
-
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: cojstedelali
     attributes:
