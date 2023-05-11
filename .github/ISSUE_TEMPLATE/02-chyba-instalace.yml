@@ -31,6 +31,7 @@ body:
       label: Screenshot s chybovou hláškou při instalaci
       description: >-
         Přiložte prosím screenshot, nebo screenshoty ve formátu PNG, dokumentující váš problém. **Všechny** chybové hlášky, které se zobrazily během instalace češtiny jsou pro nás důležité.  
+
         Vyhrazujeme si právo uzavřít tento problém, pokud nebude přiložen screenshot.
       placeholder: |-
         Přetáhněte myší screenshot ve formátu PNG sem.
@@ -88,7 +89,6 @@ body:
       options:
         - Windows 10 x64
         - Windows 11 x64
-          required: true
 
   - type: checkboxes
     id: dotnetfw
@@ -121,6 +121,7 @@ body:
         Ujistěte se, že vaše hlášení o chybě splňuje všechny následující požadavky. Pokud si nejste jisti,
          co konkrétní požadavek znamená, klikněte na odkaz abyste se o něm dozvěděli a pochopili,
          proč je to nutné, než potvrdíte tuto volbu.  
+
          Dodržováním těchto podmínek ušetříte nám i vám drahocenný čas.
       options:
         - label: >-
