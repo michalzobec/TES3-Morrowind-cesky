@@ -121,10 +121,10 @@ body:
       label: Než vytvoříte toto oznámení o chybě
       description: >-
         Ujistěte se, že vaše hlášení o chybě splňuje všechny následující požadavky. Pokud si nejste jisti,
-         co konkrétní požadavek znamená, klikněte na odkaz abyste se o něm dozvěděli a pochopili,
-         proč je to nutné, než potvrdíte tuto volbu.  
+        co konkrétní požadavek znamená, klikněte na odkaz abyste se o něm dozvěděli a pochopili,
+        proč je to nutné, než potvrdíte tuto volbu.  
 
-         Dodržováním těchto podmínek ušetříte nám i vám drahocenný čas.
+        Dodržováním těchto podmínek ušetříte nám i vám drahocenný čas.
       options:
         - label: >-
             Přečetl jsem a řídil jsem se článkem [TES3 Morrowind Czech: Máte potíže?](https://doc.michalzobec.cz/tes3-morrowind-czech-mate-potize-57) pro hlášení chyb v překladu.
